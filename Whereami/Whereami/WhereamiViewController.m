@@ -20,7 +20,7 @@
         locationManager = [[CLLocationManager alloc] init];
         
         // There will be a warning ffrom this line of code; ignore for now
-        [[locationManager setDelegate:self]]
+        [locationManager setDelegate:self];
         
         // And we want it to be as accurate as possible
         // regardless of home much time/power it takes
@@ -31,6 +31,19 @@
     }
     
     return self;
+}
+
+-(void)locationManager:(CLLocationManager *)manager
+    didUpdateToLocation:(CLLocation *)newLocation
+    fromLocation:(CLLocation *)oldLocation
+{
+    NSLog(@"%@",newLocation);
+}
+
+-(void)locationManager:(CLLocationManager *)manager
+    didFailWithError:(NSError *)error
+{
+    NSLog(@"Could not find location : %@",error);
 }
 
 @end
