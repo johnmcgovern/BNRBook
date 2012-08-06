@@ -46,4 +46,10 @@
     NSLog(@"Could not find location : %@",error);
 }
 
+-(void)dealloc
+{
+    // Tell the locatio manager to stop sending us messages
+    [locationManager setDelegate:nil];
+}
+
 @end
