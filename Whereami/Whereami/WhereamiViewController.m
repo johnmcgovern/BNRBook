@@ -19,7 +19,7 @@
         // Create location manager object
         locationManager = [[CLLocationManager alloc] init];
         
-        // There will be a warning ffrom this line of code; ignore for now
+        // There will be a warning from this line of code; ignore for now
         [locationManager setDelegate:self];
         
         // And we want it to be as accurate as possible
