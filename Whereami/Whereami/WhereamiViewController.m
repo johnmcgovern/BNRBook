@@ -11,11 +11,17 @@
 
 @implementation WhereamiViewController
 
+-(void) viewDidLoad
+{
+    [worldView setShowsUserLocation:YES];
+}
+
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     
-    if(self){
+    if(self)
+    {
         // Create location manager object
         locationManager = [[CLLocationManager alloc] init];
         
@@ -27,7 +33,7 @@
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
         
         // Tell our manager to start looking for its location immediately
-        [locationManager startUpdatingLocation];
+        //[locationManager startUpdatingLocation];
     }
     
     return self;

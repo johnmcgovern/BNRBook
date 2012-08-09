@@ -16,6 +16,7 @@
 		52DEA88315CC958700A6C53C /* WhereamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEA88215CC958700A6C53C /* WhereamiViewController.m */; };
 		52DEA88615CC958700A6C53C /* WhereamiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DEA88415CC958700A6C53C /* WhereamiViewController.xib */; };
 		52DEA88D15CF814D00A6C53C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DEA88C15CF814C00A6C53C /* CoreLocation.framework */; };
+		52F7D12315D44AC30089DA0C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F7D12215D44AC30089DA0C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		52DEA88215CC958700A6C53C /* WhereamiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiViewController.m; sourceTree = "<group>"; };
 		52DEA88515CC958700A6C53C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereamiViewController.xib; sourceTree = "<group>"; };
 		52DEA88C15CF814C00A6C53C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		52F7D12215D44AC30089DA0C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 				52DEA87215CC958700A6C53C /* Foundation.framework in Frameworks */,
 				52DEA87415CC958700A6C53C /* CoreGraphics.framework in Frameworks */,
 				52DEA88D15CF814D00A6C53C /* CoreLocation.framework in Frameworks */,
+				52F7D12315D44AC30089DA0C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +73,7 @@
 		52DEA86E15CC958700A6C53C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52F7D12215D44AC30089DA0C /* MapKit.framework */,
 				52DEA88C15CF814C00A6C53C /* CoreLocation.framework */,
 				52DEA86F15CC958700A6C53C /* UIKit.framework */,
 				52DEA87115CC958700A6C53C /* Foundation.framework */,
@@ -284,6 +288,7 @@
 				52DEA88B15CC958700A6C53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
