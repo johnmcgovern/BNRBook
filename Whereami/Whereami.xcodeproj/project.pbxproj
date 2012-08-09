@@ -17,6 +17,7 @@
 		52DEA88615CC958700A6C53C /* WhereamiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DEA88415CC958700A6C53C /* WhereamiViewController.xib */; };
 		52DEA88D15CF814D00A6C53C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DEA88C15CF814C00A6C53C /* CoreLocation.framework */; };
 		52F7D12315D44AC30089DA0C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F7D12215D44AC30089DA0C /* MapKit.framework */; };
+		52F7D12715D4585A0089DA0C /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D12615D4585A0089DA0C /* BNRMapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		52DEA88515CC958700A6C53C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereamiViewController.xib; sourceTree = "<group>"; };
 		52DEA88C15CF814C00A6C53C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		52F7D12215D44AC30089DA0C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52F7D12515D4585A0089DA0C /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		52F7D12615D4585A0089DA0C /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				52DEA87F15CC958700A6C53C /* WhereamiAppDelegate.m */,
 				52DEA88115CC958700A6C53C /* WhereamiViewController.h */,
 				52DEA88215CC958700A6C53C /* WhereamiViewController.m */,
+				52F7D12515D4585A0089DA0C /* BNRMapPoint.h */,
+				52F7D12615D4585A0089DA0C /* BNRMapPoint.m */,
 				52DEA88415CC958700A6C53C /* WhereamiViewController.xib */,
 				52DEA87615CC958700A6C53C /* Supporting Files */,
 			);
@@ -173,6 +178,7 @@
 				52DEA87C15CC958700A6C53C /* main.m in Sources */,
 				52DEA88015CC958700A6C53C /* WhereamiAppDelegate.m in Sources */,
 				52DEA88315CC958700A6C53C /* WhereamiViewController.m in Sources */,
+				52F7D12715D4585A0089DA0C /* BNRMapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
