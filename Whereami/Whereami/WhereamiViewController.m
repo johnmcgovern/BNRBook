@@ -52,6 +52,16 @@
     NSLog(@"Could not find location : %@",error);
 }
 
+-(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
+{
+    // here we are ready to zoom
+    CLLocationCoordinate2D loc = [userLocation coordinate];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(loc, 500, 500);
+    [worldView setRegion:region animated:YES];
+    
+    
+}
+
 -(void)dealloc
 {
     // Tell the locatio manager to stop sending us messages
