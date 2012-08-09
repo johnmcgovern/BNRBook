@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HypnosisView : NSObject
+@interface HypnosisView : UIView
 
 @end
