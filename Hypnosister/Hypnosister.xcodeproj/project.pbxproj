@@ -13,6 +13,7 @@
 		52F7D14215D476740089DA0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52F7D14015D476740089DA0C /* InfoPlist.strings */; };
 		52F7D14415D476740089DA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D14315D476740089DA0C /* main.m */; };
 		52F7D14815D476740089DA0C /* HipnosisterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D14715D476740089DA0C /* HipnosisterAppDelegate.m */; };
+		52F7D15015D47E8B0089DA0C /* HipnosisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7D14F15D47E8B0089DA0C /* HipnosisterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		52F7D14515D476740089DA0C /* Hypnosister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnosister-Prefix.pch"; sourceTree = "<group>"; };
 		52F7D14615D476740089DA0C /* HipnosisterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HipnosisterAppDelegate.h; sourceTree = "<group>"; };
 		52F7D14715D476740089DA0C /* HipnosisterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HipnosisterAppDelegate.m; sourceTree = "<group>"; };
+		52F7D14E15D47E8B0089DA0C /* HipnosisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HipnosisterView.h; sourceTree = "<group>"; };
+		52F7D14F15D47E8B0089DA0C /* HipnosisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HipnosisterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				52F7D14615D476740089DA0C /* HipnosisterAppDelegate.h */,
 				52F7D14715D476740089DA0C /* HipnosisterAppDelegate.m */,
+				52F7D14E15D47E8B0089DA0C /* HipnosisterView.h */,
+				52F7D14F15D47E8B0089DA0C /* HipnosisterView.m */,
 				52F7D13E15D476740089DA0C /* Supporting Files */,
 			);
 			path = Hypnosister;
@@ -155,6 +160,7 @@
 			files = (
 				52F7D14415D476740089DA0C /* main.m in Sources */,
 				52F7D14815D476740089DA0C /* HipnosisterAppDelegate.m in Sources */,
+				52F7D15015D47E8B0089DA0C /* HipnosisterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
