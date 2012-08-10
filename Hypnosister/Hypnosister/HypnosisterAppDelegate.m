@@ -14,13 +14,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+    
+    // First subview
     CGRect viewFrame = CGRectMake(160, 240, 100, 150);
     
     HypnosisView *view = [[HypnosisView alloc] initWithFrame:viewFrame];
     [view setBackgroundColor:[UIColor redColor]];
     
     [[self window] addSubview:view];
+    
+    // Second subview
+    CGRect anotherFrame = CGRectMake(20, 30, 50, 50);
+    
+    HypnosisView *anotherView = [[HypnosisView alloc] initWithFrame:anotherFrame];
+    [anotherView setBackgroundColor:[UIColor blueColor]];
+    
+    [[self window] addSubview:anotherView];
+    
     
     
     self.window.backgroundColor = [UIColor whiteColor];
